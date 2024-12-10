@@ -37,7 +37,7 @@
         .search-section {
             text-align: center;
             padding: 20px;
-            background-color: #e0f3ff;
+            background-color: #ffcccc; /* Light red background */
         }
         .search-section input[type="text"] {
             padding: 10px;
@@ -47,7 +47,7 @@
         }
         .search-section button {
             padding: 10px 20px;
-            background-color: #005ea2;
+            background-color: #e60000; /* Red button */
             color: white;
             border: none;
             cursor: pointer;
@@ -72,12 +72,16 @@
             background-color: white;
             border: 1px solid #ddd;
             padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         footer {
             background-color: #005ea2;
             color: white;
             text-align: center;
             padding: 10px 0;
+        }
+        .content-box h2 {
+            color: #e60000; /* Red heading for emphasis */
         }
     </style>
 </head>
@@ -101,16 +105,33 @@
     </div>
     <div class="content-section">
         <div class="content-box">
-            <h2>Affordable Plans</h2>
-            <p>Starting at just $3.99/month. Great value hosting!</p>
+            <h2>Shared Hosting</h2>
+            <p>Perfect for small websites and personal blogs. Get started today!</p>
         </div>
         <div class="content-box">
-            <h2>24/7 Support</h2>
-            <p>Get expert help whenever you need it.</p>
+            <h2>VPS Hosting</h2>
+            <p>Powerful and flexible virtual private servers for growing businesses.</p>
         </div>
         <div class="content-box">
-            <h2>Fast Speed</h2>
-            <p>Enjoy ultra-fast website performance.</p>
+            <h2>Dedicated Hosting</h2>
+            <p>Experience unmatched performance with dedicated resources for your enterprise.</p>
+        </div>
+    </div>
+    <div class="content-section">
+        <div class="content-box">
+            <h3>Hosting Plans</h3>
+            <p><strong>Basic Plan</strong><br>Price: $5/month</p>
+            <p>Ideal for personal websites and blogs.</p>
+        </div>
+        <div class="content-box">
+            <h3>Standard Plan</h3>
+            <p>Price: $10/month</p>
+            <p>Perfect for small businesses with moderate traffic.</p>
+        </div>
+        <div class="content-box">
+            <h3>Premium Plan</h3>
+            <p>Price: $20/month</p>
+            <p>Best for high-traffic websites requiring superior performance.</p>
         </div>
     </div>
     <footer>
